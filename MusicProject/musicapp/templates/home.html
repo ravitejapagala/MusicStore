@@ -1,0 +1,9 @@
+
+{% for record in musicRecords %}
+<div style="margin: 3%;">
+<h4>Artistname:{{ record.artistName }}</h4>
+<h4>Collectionname:{{ record.collectionName }}</h4>
+<h4>Link:{{record.artistViewUrl}}</h4>
+<h4>ArtistID:{{record.artistId}}</h4></div>
+<br>
+{% endfor %}
